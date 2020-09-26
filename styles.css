@@ -1,8 +1,30 @@
 h1 {
-    padding-top: 0.4em;
-    font: Courier;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 4em;
     text-align: center;
-    color: mediumseagreen;
-    
+    color: dodgerblue;
+
 } 
+body {
+    background-color: gainsboro;
+}
+.container {
+    height: 200px;
+    position: relative;
+}
+.center {
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#demo {
+    color: red;
+    text-align: center;
+    padding-top: 0.35em;
+    font-size: 25px;
+}
+button {
+    font-size: 25px;
+}
