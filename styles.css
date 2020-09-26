@@ -47,3 +47,6 @@ input[type="radio"] {
 .female {
     padding-top: 0.5em;
 }
+.female, .male {
+    color: grey;
+}
