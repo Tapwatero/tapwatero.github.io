@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="numbers.js"></script>
+    <script src="predict.js"></script>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,7 @@
         <div class="center">
             <form action="">
                 <input type="text" id="mHeight" name="mHeight" onkeypress="return isNumberKey(event)" placeholder="158 (Your Mother's Height)"><br><br>
-                <input type="text" id="mHeight" name="mHeight" onkeypress="return isNumberKey(event)" placeholder="175 (Your Father's Height)"><br><br>
+                <input type="text" id="fHeight" name="fHeight" onkeypress="return isNumberKey(event)" placeholder="175 (Your Father's Height)"><br><br>
                 <div class="male">
                     <input type="radio" id="male" name="gender" value="male" id="radio">
                     <label for="male">Male</label><br>
@@ -29,8 +30,9 @@
                     <input type="radio" id="female" name="gender" value="female" id="radio">
                     <label for="female">Female</label><br>
                 </div>
-                <input type="submit" value="Predict" id="predict">
+                <input type="button" value="Predict" id="predict" onclick="predictor()">
             </form>
+            <h1 id="predicted"></h1>
         </div>
     </div>
 </body>
