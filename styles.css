@@ -21,3 +21,29 @@ body {
 button {
     font-size: 25px;
 }
+input {
+    border-style: solid;
+    font-size: 1.5em;
+}
+#predict {
+    border-style: solid;
+    font-size: 1.5em;
+    position: relative;
+    margin-top: 0.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+#predict:hover {
+    color: black;
+}
+label {
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 0.2em;
+}
+input[type="radio"] {
+    transform: scale(1.85);
+}
+.female {
+    padding-top: 0.5em;
+}
