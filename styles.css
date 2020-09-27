@@ -50,10 +50,14 @@ input[type="radio"] {
 .female, .male {
     color: grey;
 }
-h1 {
+#predicted {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5em;
-    position: absolute;
-    text-align: center;
+    position: fixed;
     color: grey;
+    margin-top: 2%;
+    white-space: nowrap;
+}
+.height {
+    color: indianred;
 }

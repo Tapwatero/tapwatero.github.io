@@ -8,10 +8,10 @@ function predictor() {
     if (mother > 0 && father > 0) {
         if (document.getElementById('male').checked) {
             let predicted = divided + 12.7;
-            document.getElementById('predicted').innerHTML = "Your predicted adult height is " + predicted + "cm!";
+            document.getElementById('predicted').innerHTML = "Your predicted adult height is: <br><span class='height'>" + parseInt(predicted, 10) + "cm!</span>";
         } else if (document.getElementById('female').checked) {
             let predicted = divided - 12.7;
-            document.getElementById('predicted').innerHTML = "Your predicted adult height is " + predicted + "cm!";
+            document.getElementById('predicted').innerHTML = "Your predicted adult height is: <br><span class='height'>" + parseInt(predicted, 10) + "cm!</span>";
         }
     } 
 
